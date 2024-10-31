@@ -27,28 +27,6 @@ This takes us to 2023, where I decided to share my 5 years of work as to help pe
 
 And of course, do not hesitate to open up an issue if you have any specific question on the YAML code I made.
 
-### A Few Screenshots;
-
-<h5 align="center">Wall Displays</h5>
-<p align="center">
-  <img src="/assets/Tablet_A8/musicdemo.gif" width="43%" />
-  <img src="/assets/Tablet_S7FE/framed_light_panel_lowres.gif" width="38%" />
-</p>
-
-<h5 align="center">Some Node-Red automations</h5>
-<p align="center">
-  <img src="/assets/node-red/example_flow_microwave.png" width="90%" />
-  <img src="/assets/node-red/example_flow.png" width="90%" />
-  <img src="/assets/node-red/example_flow_2.png" width="90%" />
-</p>
-
-
-<h5 align="center">An interactive plan with projected shadows and lights</h5>
-<p align="center">
-  <img src="/assets/interactive_plan/color_doors_demo.gif" width="90%" />
-</p>
-
-
 <p align="center">
 
 <a href="/documentation/automations_list_v2.md"><img src="https://img.shields.io/badge/Automations%20List-purple" alt="A part of me lives here"></a>
