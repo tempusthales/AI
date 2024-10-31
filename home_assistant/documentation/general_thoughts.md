@@ -8,7 +8,8 @@
 
 
 
-# Some things I've learned the hard way
+# Never push a square peg in a round hole 
+#### Or learning things the hard way
 
 ### Here you will find things that I wish I had known sooner!
 ##### (These are all opinions, and none of this is officially recommended nor disrecommended by HA)
