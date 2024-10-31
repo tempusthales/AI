@@ -1,0 +1,178 @@
+
+
+
+
+# Automations List
+
+### Here you will find an almost complete and almost kept-to-date list of all my automations!
+
+  
+
+<p  align="center">  <a  href="/node-red/"><img  src="https://img.shields.io/badge/Nodered%20FLows-purple"  alt="Red leader standing by, or something"></p> 
+
+- [House-Wide](/node-red/flows/House-Wide.json):
+  - Set ACs to away or present depending on users presence
+  - Turn all lights off when all users are away
+  - Set alarm to away when all users are away
+  - Set alarm to home when at least one user is present
+  - Calculate and set the appropriate volume of speakers when they start playback
+  - Notify my phone and broadcast an alert when a package is delivered
+  - Completely stop speakers after 10 minutes of paused state  - 
+  - Calculate and set the appropriate volume of TVs when they start playback
+  - Set speakers volume to 20% after they are stopped
+  - Calculate and set the appropriate brightness of lights when motion is detected
+  - Turn lights off in empty rooms
+  - Turn all lights off when the house is empty
+  - Mute the speakers in a room if the TV is started
+  - Unmute the speakers in a room when the TV is stopped
+  - Close the blinds in a room when the TV is playing a movie
+  - Turn the lights to purple in a room when the TV is playing a movie
+  - Turn the lights to brighter purple in a room when the TV has a paused movie
+  - Return the lights in a room to white when a movie is stopped on the TV
+  - Close the blinds when all are asleep
+  - Add artists playing on TVs to Lidarr for automatic acquisition
+  - Turn on "party mode" when 5 friends are over
+     -  Play soft visuals on all screens when "party mode" is turned on
+     - Change light groups to semi-saturated random colors when "party mode" is turned on
+     - Start music on each speaker group when "party mode" is turned on
+   - Reload tablets when hass is rebooted
+   - Turn on "Waiting Uber" when an uber email is detected
+- [Trigger-Based](/node-red/flows/Trigger-Based.json):
+  - Start visuals on all inactive TVs
+  - Generate and set "Fake white" on each active light group
+  - Generate and set warm saturated colors on each active light
+  - Generate and set warm pale colors on each active light
+  - Generate and set a random saturated color on each active light
+  - Generate and set a random pastel color on each active light
+  - Generate and set random saturated colors when "acid time" is turned on
+  - Play trippy visuals on all inactive TVs  when "acid time" is turned on
+  - Start music across the house-group when "acid time" is turned on
+  - Close all blinds when either "acid time" or "kink party" is turned on
+  - Generate and set warm colors on each light group when "kink party" is turned on
+  - Generate an improved color loop when "trippy lights effect" is turned on
+  - Return lights to white when "trippy lights effect" is turned off- 
+- [Security/Conditions](/node-red/flows/Security_conditions.json):
+   - Notifify my phone upon breach in my bedroom
+   - Automatically set the following boolean inputs to off after a set amount of time
+     - Waiting Uber
+     - Party mode
+     - Acid time
+     - Aerating Appartment
+     - Sleeper in Hotbox
+     - Sleeper in Livingroom
+     - Sleeper in Patio
+     - Sleeper in Closet
+     - Waiting someone
+   - Automatically set the the following boolean inputs to off after a condition is met
+      - Acid time
+    - Trigger the alarm system upon motion and notify and broadcast an alarm
+- [Carla](/node-red/flows/Carla.json):
+   - Tells Carla to move her car at 8:45 and 9:15 if she is present
+- [Fay](/node-red/flows/Fay.json):
+   - Create a calendar event when Fay text me a pending task
+- [Back Door](/node-red/flows/Back%20door.json):
+   - Automatically lock the door when it is closed
+   - Announce if someone is using the door to enter or exit
+   - Turn back door lights on when someone is detected
+- [Front Door](/node-red/flows/Front%20Door.json):
+  - Automatically turn the porch light on and off depending on the sun position
+  - Brighten the porch light when someone is passing in front of the front door camera
+  - Lock the door when the front door is closed
+  - Lock the door after 10 minutes of being unlocked
+  - Detect when the front door is left open and broadcast and alert every 5 minutes until it is closed
+  - Let people with "conditional" pins in if I am present and announce them
+  - Detect who is entering and announce them while disabling the alarm system
+  - Turn all lights to green when someone exits
+- [Bathroom](/node-red/flows/Bathroom.json):
+  - Start muzak in the bathroom when someone enters
+  - Stop the bathroom speaker when appropriate
+  - Automatically turns the light off when appropriate
+  - Automatically adjust the bathroom speaker volume
+  - Mute the main speaker when the shower speaker is started and stops it when not needed anymore
+  - Automatically start the bathroom fan when humidity goes over 65%
+  - Raise the speaker volume when the bathroom fan goes on
+- [Bedroom](/node-red/flows/Bedroom.json):
+   - Turn on the "Sleeper in bedroom" boolean input when the "Sleeper in bedroom" sensors goes to on
+   - Turn off the "Sleeper in bedroom" boolean input when the bedroom lights are turned on
+   - Connect the dial to the dial subflow
+   - Turn on thunderstorm sounds on the speaker when I go to sleep
+   - Philip ecogreen tap control flow
+- [Office](/node-red/flows/Office.json):
+  - Connect the dial to the dial subflow
+  - Add artists playing on speaker to Lidarr for automatic acquisition
+  - Control blinds through the blind button
+  - Slightly open the blinds when the AC turns on
+  - Close the blinds when the AC turns off
+  - Adjust volume when the AC turns on and off
+  - Set "Wallpaper Engine" background color to the same color as the lights
+- [Chilling Room](/node-red/flows/Chilling%20Room.json):
+  - Connect the dial to the dial subflow
+  - Set a random effect on the tree when it turns on
+- [Closet](/node-red/flows/Closet.json):
+  - Mute the hallway speaker if someone is sleeping in the closet
+  - Automatically adjust the control tablet's brightness to follow the lights.
+  - Automatically turns on the light depending on certain conditions
+  - Turn off the lights when someone is sleeping
+  - Turn off the tablet's screen when someone is sleeping
+  - Turn on the Sleeper more when someone press the dial
+  - Control the unique dial contorls of the closet
+- [Kitchen](/node-red/flows/Kitchen.json):
+   - Connect the dial to the dial subflow
+   - Announce house-wide when the pasta water is boiling
+   - Harrass me when the fridge door is left open
+   - Alert us when there is a water leak behind the washer
+   - Broadcast an alert when the ktichen timer is finished until someone enters the kitchen
+   - Set "Kitchen timer" to match the kitchen's speaker timer and alarm 
+- [Hotbox Down](/node-red/flows/Hotbox%20Down.json):
+  - Connect the dial to the dial subflow
+  - Automatically recast the Lovelace interface to the nest hub when needed
+  - Toggle the sleeping mode when someone double pressed the sleep button
+     - Toggle the lights depending on sleeping state
+     - Mute and turn off hotbox down media players
+     - Toggle the Hotbox Down Television depending on sleeping state
+     - Turn off the Xbox
+     - Unmute hotbox down media players once the guests are awake and exit the room
+     - Toggle "Do not disturb" on the nest hub depending on sleeping state
+- [Hotbox Top](/node-red/flows/Hotbox%20Top.json):
+  - Connect the dial to the dial subflow
+   - Adjust lights when Netflix, Plex, or Xbox is used on the TV's roku
+   - Turn on Xbox one if the Xbox input is selected
+   - Open the TV on the Chromecast upon entering Hotbox top
+   - Adjust the hotbox top volume media when someone goes to sleep
+  - Automatically recast the Lovelace interface to the nest hub when needed
+- [Living Room](/node-red/flows/Living%20Room.json):
+  - Adjust volume when the AC turns on and off
+  - Slightly open the blinds when the AC turns on
+  - Close the blinds when the AC turns off
+  - Control blinds through the blind button
+  - Toggle speaker's mute depending on sleeping state
+  - Toggle the lights depending on sleeping state
+  - Toggle the TV depending on sleeping state
+  - Toggle hallway speaker volume depending on sleeping state
+  - Connect the dial to the dial subflow
+  - Connect the second dial to the dial subflow
+- [PTZ Camera](/node-red/flows/PTZ%20Camera.json):
+  - Return the PTZ camera to its original position after 10 minutes if no package is awated
+- [Phone](/node-red/flows/Phone.json):
+   - Tell me that a phone call is incoming on a nearby speaker
+- [Tablets](/node-red/flows/Tablets.json):
+   - Control S7 FE batterly level with a smart plug
+   - Control A7 lite batterly level with a smart plug
+- [Vacuum](/node-red/flows/Vacuum.json):
+   - Broadcast an alert if the vacuum is stuck until it is unstuck
+   - Automatically vacuum the entrance once 4 guests have entered  
+- [Hallway](/node-red/flows/Hallway.json):
+  - Connect the dial to the dial subflow
+- [Server](/node-red/flows/Server.json):
+  - Connect the dial to the dial subflow
+  - Detect when the server door is left open and broadcast regular alerts based on current temperature
+- [Patio](/node-red/flows/Patio.json):
+  - Turn off the lights when someone goes to sleep  
+  - Alert me when people are too noisy on the patio during a party
+- [Face Reco](/node-red/flows/Face%20Reco.json):
+  - Receive and process the "Enter Text" actionnable notification
+  - Receive and process the "Who is this" actionnable notification
+  - Reset all the associated booleans when the door locks
+  - Tries to detect who is at the door and let them in if they are recognized and a few conditions are met
+- [Neighbors](/node-red/flows/Neighbors.json):
+  - Automatically mute the wiim receivers between 2AM and Noon
