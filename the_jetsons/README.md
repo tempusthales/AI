@@ -8,7 +8,7 @@
 
 <a href="/the_jetsons/home_assistant/documentation/automations_list_v2.md"><img src="https://img.shields.io/badge/Automations%20List-purple" alt="A part of me lives here"></a>
 <a href="/the_jetsons/home_assistant/documentation/hardware.md"><img src="https://img.shields.io/badge/Hardware%20Specifications-purple" alt="This is what runs everything"></a> 
-<a href="/the_jetsons/home_assistant/documentation/zigbee.md"><img src="https://img.shields.io/badge/Zigbee%20Devices-green" alt="This is what runs everything"></a> <a href=".storage/"><img src="https://img.shields.io/badge/Lovelace%20Interfaces-orange" alt="Actually my .storage folder, but eh!"></a>
+<a href="/the_jetsons/home_assistant/documentation/zigbee.md"><img src="https://img.shields.io/badge/Zigbee%20Devices-green" alt="This is what runs everything"><img src="https://img.shields.io/badge/Lovelace%20Interfaces-orange" alt="Actually my .storage folder, but eh!"></a>
 <a href="/the_jetsons/home_assistant/documentation/indoor_localization.md"><img src="https://img.shields.io/badge/Indoor%20Localization-blue" alt="They know where you are..."></a> 
 <a href="/the_jetsons/home_assistant/documentation/software.md"><img src="https://img.shields.io/badge/Software%20Usage-cyan" alt="Some deets on the softs"></a> <a href="/documentation/wifi.md"><img src="https://img.shields.io/badge/Networking-violet" alt="Some deets on the network"></a> <a href="/documentation/general_thoughts.md"><img src="https://img.shields.io/badge/My Thoughts-red" alt="Some thoughts"></a> <br></p>
 
